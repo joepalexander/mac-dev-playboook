@@ -1,0 +1,38 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dock: false
+dockitems_remove:
+  - Maps
+  - TV
+  - Podcasts
+  - News
+  - 'App Store'
+dockitems_persist:
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
+    pos: 5
+
+homebrew_installed_packages:
+  - git
+  - github/gh/gh
+  - node
+  - nvm
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+
+homebrew_cask_apps:
+  - 1password
+  - dbeaver-community
+  - docker
+  - firefox
+  - google-chrome
+  - slack
+  - transmit
+  - visual-studio-code
+
+mas_installed_apps: []
