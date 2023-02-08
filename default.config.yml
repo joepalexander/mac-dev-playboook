@@ -34,5 +34,6 @@ homebrew_cask_apps:
   - slack
   - transmit
   - visual-studio-code
+  - local
 
 mas_installed_apps: []
