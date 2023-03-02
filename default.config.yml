@@ -1,13 +1,14 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dock: false
+configure_dock: true
 dockitems_remove:
   - Maps
   - TV
   - Podcasts
   - News
   - 'App Store'
+  - Music
 dockitems_persist:
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
@@ -18,6 +19,7 @@ homebrew_installed_packages:
   - github/gh/gh
   - node
   - nvm
+  - htop
 
 homebrew_taps:
   - homebrew/core
@@ -35,5 +37,9 @@ homebrew_cask_apps:
   - transmit
   - visual-studio-code
   - local
+  - insomnia
+  - postman
+  - openvpn-connect
+  
 
 mas_installed_apps: []
