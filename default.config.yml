@@ -40,6 +40,11 @@ homebrew_cask_apps:
   - insomnia
   - postman
   - openvpn-connect
+  - whatsapp
+  - aldente
+  - caffiene
+  - github
+  - iterm2
   
 
 mas_installed_apps: []
