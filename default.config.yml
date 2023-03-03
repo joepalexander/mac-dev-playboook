@@ -13,6 +13,13 @@ dockitems_persist:
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
     pos: 5
+  - name: "ITerm"
+    path: "/Applications/ITerm.app/"
+    pos: 3
+  - name: "1Password"
+    path: "/Applications/1Password.app/"
+    pos: 4
+
 
 homebrew_installed_packages:
   - git
@@ -21,6 +28,7 @@ homebrew_installed_packages:
   - nvm
   - htop
   - rust
+  - awscli
 
 homebrew_taps:
   - homebrew/core
@@ -43,7 +51,7 @@ homebrew_cask_apps:
   - openvpn-connect
   - whatsapp
   - aldente
-  - caffiene
+  - caffeine
   - github
   - iterm2
   - spotify
